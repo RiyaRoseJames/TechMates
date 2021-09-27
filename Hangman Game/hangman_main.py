@@ -54,7 +54,8 @@ win=False
 
 list_words=['python','java','html','flutter','javascript','git','swift','php']
 word=guess_a_word()
-blank_dash='_'*len((word))/print(blank_dash) 
+blank_dash='_'*len((word))
+print(blank_dash) 
 print(hangman[0])
 
 
